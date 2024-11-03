@@ -524,7 +524,7 @@ int modo_dificil(jogoDaVelha tabuleiro[], int *jogador) {
     system("cls");
     printf("JOGO DA VELHA (Jogador x Computador)\n\n");
     printf("O Computador eh o 'X' e o Jogador eh o 'O'\n");
-    printf("Voce escolheu o modo facil\n");
+    printf("Voce escolheu o modo dificil\n");
     print_tabuleiro(tabuleiro);
     while (rodada < 81 && algGanhou == 0) {
         *jogador = (rodada % 2) + 1;
